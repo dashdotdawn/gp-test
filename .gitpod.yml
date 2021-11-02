@@ -1,4 +1,3 @@
-
 image: gitpod/workspace-mongodb
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
@@ -11,8 +10,7 @@ tasks:
   - command: |
       mongod
   - init: |
-      npm install
-      npm run build
+      touch hhh.md
     command: |
       npm run start
 
